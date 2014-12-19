@@ -1,0 +1,15 @@
+{
+  "name": "gulp-jasmine-starter-kit",
+  "version": "1.0.0",
+  "description": "Starter kit for node modules using gulp and Jasmine",
+  "main": "main.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Akash Kurdekar <npm@kurdekar.com> (http://untilfalse.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jasmine": "^1.0.1"
+  }
+}
