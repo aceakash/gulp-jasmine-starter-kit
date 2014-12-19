@@ -6,7 +6,7 @@ gulp.task('test', function () {
     .pipe(jasmine());
 });
 
-gulp.task('watch', function () {
+gulp.task('watch', ['test'], function () {
   gulp.watch('*.js', ['test']);
 });
 
